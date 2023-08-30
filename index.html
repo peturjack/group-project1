@@ -6,12 +6,15 @@
     <title>Group-project</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- container around the entire first page -->
 <div class="container">
+
+    <!-- the header and navbar -->
     <header class="header">
         <img class="sound-logo" src="images/logo.png" alt="Logo">
         <nav>
             <ul>
-                <li><a href="#header">home</a></li>
+                <li><a href="#main">home</a></li>
                 <li><a href="#events">events</a></li>
                 <li><a href="#">music</a></li>
                 <li><a href="#">bios</a></li>
@@ -20,23 +23,48 @@
         </nav>
         <input class="search-bar" type="text" placeholder="search...">
     </header>
-    <main id="header" class="main-section">
+    <main id="main" class="main-section">
         <h1>Step into this!</h1>
         <p>At soundzone you can <br> play the latest tracks or <br> your old favourites with <br> one click. </p>
     </main>
 </div>
 
+<!-- container around the entire second page -->
+<div class="container2" id="events">
 
-<div class="container2">
-
+<!-- the main content of the second page -->
     <div class="flex-container">
-        <img src="images/guitar player.jpg" alt="">
-        <div class="boxes" id="events">
-            <h2>Events in the <br> zone.</h2>
-            <p>Be up to date about <br> what’s happening <br> around you.</p>
+
+
+        <div class="container2-left">
+            <img class="guitar-image    " src="images/guitar player.jpg" alt="">
+            <div class="up-coming-shows">
+                <img class="logo2" src="images/onlu-icon.svg" alt="logo">
+                <div class="up-coming-shows-text">
+                    <h3>Up coming shows.</h3>
+                    <p>There's always more going on in the soundzone!</p>  
+                </div>
+            </div>      
+        </div>
+        
+        <div class="container2-right">
+            <div class="container2-top-right-text">
+                <h2>Events in the <br> zone.</h2>
+                <p>Be up to date about <br> what’s happening <br> around you.</p>
+            </div>
+            <div class="container2-bottom-right">
+                <img src="images/band 1.png" alt="people">
+                <p>This band is <br> playing at a random <br> stadium tonight.</p>
+                <p>This little kid will <br> be performing on <br> the fourth wedding <br> of King Charles.</p>
+                <img src="images/kid1.png" alt="kid">
+            </div>
         </div>
     </div>
 
 </div>
+
+  <div class="container3">
+
+  </div>
 </body>
 </html>
