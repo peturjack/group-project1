@@ -88,7 +88,7 @@ html {
     
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1500px) {
     .header a {
         display:none;
     }
@@ -275,6 +275,7 @@ html {
     height: 100vh;
     width: 100%;
     background-color: #564D80;
+    background-color: #0E0167;
  
 }
 
@@ -347,7 +348,7 @@ html {
 }
 
 .container2-right h2 {
-    font-size: 6.1rem;
+    font-size: 7rem;
     line-height: 6rem;
     margin-bottom: 3rem;
 }
@@ -427,12 +428,13 @@ html {
     font-weight: bold;
     width: 20rem;
 }
-
+/*container around the third page*/
 .container3 {
     height: 100vh;
     width: 100%;
     padding: 0 20%;
     background-color: #89A3FF;
+<<<<<<< HEAD
     
 }
 
@@ -481,6 +483,114 @@ html {
 
 .p1:hover{
     transform: scale(1.3);
+=======
+}
+
+.only-text {
+    font-size: 6rem;
+    color: white;
+}
+
+
+.container4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #0E0167;
+}
+
+.container-on-the-left {
+    color: white;
+}
+
+.container-on-the-left p {
+    font-size: 2rem;
+    
+    
+}
+
+.all-the-content-on-page-4 {
+    padding: 10rem 20% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1150px) {
+    .all-the-content-on-page-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-on-the-left {
+        margin-bottom: 3rem;
+    }
+
+}
+
+.container-on-the-left-top-text {
+    margin-bottom: 4rem;
+}
+
+.container-on-the-left-top-text h3 {
+    color: white;
+    font-size: 7rem;
+    line-height: 12rem;
+}
+
+.container-on-the-left-top-text p {
+    font-size: 4rem;
+    
+}
+
+.small-text-below p {
+    line-height: 4rem;
+}
+
+.container3-images-right {
+    border-radius: 2rem;
+    width: 30rem;
+    margin:1rem 0;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.container3-images-right:hover {
+    transform: scale(1.06);
+}
+
+
+
+.container-on-the-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-on-the-right p {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.arrow-down {
+    text-align: center;
+}
+
+.fa-solid.fa-chevron-down {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.fa-solid.fa-chevron-down:hover {
+    transform: scale(1.2);
+>>>>>>> c2c10fa1efc6ca712384d473d71cf2ca2e571278
 }
 
 
