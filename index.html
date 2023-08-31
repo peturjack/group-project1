@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group-project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b5ac99903.js" crossorigin="anonymous"></script>
 </head>
 <!-- container around the entire first page -->
 <div class="container">
@@ -16,14 +17,30 @@
             <ul>
                 <li><a href="#main">home</a></li>
                 <li><a href="#events">events</a></li>
-                <li><a href="#">music</a></li>
+                <li><a href="#music">music</a></li>
                 <li><a href="#">bios</a></li>
                 <li><a href="#">about</a></li>
             </ul>
         </nav>
         <input class="search-bar" type="text" placeholder="search...">
+        <!-- <i class="fa-solid fa-bars"></i> -->
     </header>
+    <div id="nav-icon4">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     <main id="main" class="main-section">
+        <div class="sidebarmenu">
+                <ul>
+                    <li><a href="#main">home</a></li>
+                    <li><a href="#events">events</a></li>
+                    <li><a href="#music">music</a></li>
+                    <li><a href="#">bios</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            
+        </div>
         <h1>Step into this!</h1>
         <p>At soundzone you can <br> play the latest tracks or <br> your old favourites with <br> one click. </p>
     </main>
@@ -49,6 +66,10 @@
         
         <div class="container2-right">
             <div class="container2-top-right-text">
+                <div class="small-corner-boxes"></div>
+                <div class="small-corner-boxes"></div>
+                <div class="small-corner-boxes"></div>
+                <div class="small-corner-boxes"></div>
                 <h2>Events in the <br> zone.</h2>
                 <p>Be up to date about <br> what’s happening <br> around you.</p>
             </div>
@@ -62,9 +83,13 @@
     </div>
 
 </div>
-
-  <div class="container3">
+<!-- container around the third page -->
+   <div class="container3" id="music">
 
   </div>
+
+  <script src="burger.js">
+    
+  </script>
 </body>
 </html>
