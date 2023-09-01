@@ -20,8 +20,8 @@ html {
 .container {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/piano.jpg);
-    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.75)), url(images/singer.svg);
+    background-position: right;
     background-size: cover;
 }
 
@@ -435,6 +435,56 @@ html {
     width: 100%;
     padding: 0 20%;
     background-color: #89A3FF;
+<<<<<<< HEAD
+    
+}
+
+.container3text {
+    padding-top: 10rem;
+    font-family: sans-serif;
+    color: #FBFEF9;
+    font-size: 7rem;
+}
+.container3content {
+
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    width: 100rem;
+
+    
+}
+.smallpic{
+    
+    padding-left: 35rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: flex-end;
+
+}
+.iphonepic {
+    display: flex;
+    justify-content: flex-start;
+    width: 211px;
+    height: 410px;
+
+}
+
+.p1{
+    margin-top: ;
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    }
+
+.p1:hover{
+    transform: scale(1.3);
+=======
 }
 
 .only-text {
@@ -586,7 +636,7 @@ html {
 
 .fa-solid.fa-chevron-down:hover {
     transform: scale(1.2);
+>>>>>>> c2c10fa1efc6ca712384d473d71cf2ca2e571278
 }
-
 
 
